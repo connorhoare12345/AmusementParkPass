@@ -13,6 +13,11 @@
 		3059BA6621AC7BBF00C46909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3059BA6521AC7BBF00C46909 /* Assets.xcassets */; };
 		3059BA6921AC7BBF00C46909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3059BA6721AC7BBF00C46909 /* LaunchScreen.storyboard */; };
 		3059BA7121AC7CE900C46909 /* Entrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059BA7021AC7CE900C46909 /* Entrant.swift */; };
+		3059BA7321AC7E4C00C46909 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059BA7221AC7E4C00C46909 /* Employee.swift */; };
+		3059BA7521AC7E6E00C46909 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059BA7421AC7E6E00C46909 /* Manager.swift */; };
+		3059BA7721AC7E9200C46909 /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059BA7621AC7E9200C46909 /* Guest.swift */; };
+		3059BA7921AC7EA000C46909 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059BA7821AC7EA000C46909 /* Error.swift */; };
+		3059BA7B21AC7F6900C46909 /* Hourly Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059BA7A21AC7F6900C46909 /* Hourly Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		3059BA6821AC7BBF00C46909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3059BA6A21AC7BC000C46909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3059BA7021AC7CE900C46909 /* Entrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entrant.swift; sourceTree = "<group>"; };
+		3059BA7221AC7E4C00C46909 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		3059BA7421AC7E6E00C46909 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		3059BA7621AC7E9200C46909 /* Guest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
+		3059BA7821AC7EA000C46909 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		3059BA7A21AC7F6900C46909 /* Hourly Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hourly Employee.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				3059BA5E21AC7BBE00C46909 /* AppDelegate.swift */,
 				3059BA6021AC7BBE00C46909 /* ViewController.swift */,
 				3059BA7021AC7CE900C46909 /* Entrant.swift */,
+				3059BA7221AC7E4C00C46909 /* Employee.swift */,
+				3059BA7A21AC7F6900C46909 /* Hourly Employee.swift */,
+				3059BA7421AC7E6E00C46909 /* Manager.swift */,
+				3059BA7621AC7E9200C46909 /* Guest.swift */,
+				3059BA7821AC7EA000C46909 /* Error.swift */,
 				3059BA6221AC7BBE00C46909 /* Main.storyboard */,
 				3059BA6521AC7BBF00C46909 /* Assets.xcassets */,
 				3059BA6721AC7BBF00C46909 /* LaunchScreen.storyboard */,
@@ -139,8 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3059BA7121AC7CE900C46909 /* Entrant.swift in Sources */,
+				3059BA7321AC7E4C00C46909 /* Employee.swift in Sources */,
+				3059BA7721AC7E9200C46909 /* Guest.swift in Sources */,
+				3059BA7B21AC7F6900C46909 /* Hourly Employee.swift in Sources */,
 				3059BA6121AC7BBE00C46909 /* ViewController.swift in Sources */,
 				3059BA5F21AC7BBE00C46909 /* AppDelegate.swift in Sources */,
+				3059BA7921AC7EA000C46909 /* Error.swift in Sources */,
+				3059BA7521AC7E6E00C46909 /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
